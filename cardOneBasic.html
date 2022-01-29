@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28b9ee3c53.js" crossorigin="anonymous"></script>
+    <title>Basic Card</title>
+
+    <style>
+
+        body{
+            background-color: #c7baba;
+        }
+
+        #container{
+            max-width: 500px;
+            background-color: #F7F7F7;
+            margin: 0 auto;
+            margin-top: 20vh;
+        }
+
+        img{
+            width:45%;
+            height: 40%;
+            border-radius: 5px;
+        }
+
+        .card{
+            /* position: relative; */
+        }
+
+        .card  .details{
+            position:relative;
+            left:250px;
+            bottom:100px;
+
+        }
+
+        button{
+            
+            margin:10px;
+            padding: 10px;
+            position: relative;
+            bottom:50px;
+            padding: 4px;
+        }
+
+        i{
+            margin:10px;
+            position: relative;
+            bottom:50px; 
+            padding: 4px;
+        }
+
+        button:hover,i:hover{
+            background-color: #b9aeae;
+            border-radius: 2px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div class="card">
+            <img src="https://image.shutterstock.com/image-photo/climate-changing-landscape-600w-1362111506.jpg"/>
+            <div class="details">
+                <h3>Our changing Planet</h3>
+                <small>by Kurt Wagner</small>
+            </div>
+            <button>READ</button>
+            <button>BOOKMARK</button>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-share-alt"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </div>
+</body>
+</html>
